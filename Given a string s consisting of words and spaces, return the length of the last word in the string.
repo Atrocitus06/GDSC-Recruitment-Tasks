@@ -1,5 +1,5 @@
-def length(str):
-    lis = list(str.split(" "))
-    return len(lis[-1])
+def last(str):
+    lis = list(str.split())
+    return lis[-1]
 str = input("Enter the String: ")
-print("The length of last word is",length(str))
+print("The length of",last(str),"is",len(last(str)))
